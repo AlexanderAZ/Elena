@@ -1,0 +1,576 @@
+body {
+    font-family:'pt_sansregular';
+}
+header, 
+nav, 
+section, 
+article, 
+aside, 
+footer {
+  display: block
+}
+
+ul,ol {
+    list-style: none;
+}
+
+ul,ol,dl,li,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote{
+    margin: 0; padding: 0;
+}
+
+img {
+    border: 0;
+}
+a {
+ text-decoration:none;
+}
+ 
+a:hover {
+ text-decoration: none;
+}
+#wrapper{
+    margin: 0 auto;
+    max-width: 800px;
+    
+}
+.clear{
+ clear: both;   
+    
+}
+
+/*Шрифты*/
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('font/ubuntu-b-webfont.eot');
+    src: url('font/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ubuntu-b-webfont.woff') format('woff'),
+         url('font/ubuntu-b-webfont.ttf') format('truetype'),
+         url('font/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('font/opensans-regular-webfont.eot');
+    src: url('font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/opensans-regular-webfont.woff') format('woff'),
+         url('font/opensans-regular-webfont.ttf') format('truetype'),
+         url('font/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('font/pt_sans-webfont.eot');
+    src: url('font/pt_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/pt_sans-webfont.woff') format('woff'),
+         url('font/pt_sans-webfont.ttf') format('truetype'),
+         url('font/pt_sans-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Конец Шрифты*/
+
+
+/***********   HEADER  *************/
+
+header {
+    background: url(image/bg.jpg) no-repeat;
+    height: 582px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-transform: uppercase; 
+}
+
+/***********   LOGO  *************/
+
+.logo_block {
+    position: relative;
+    top: 66px;
+    left: 0px;
+    width: 100%;
+       
+}
+ img.logo {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+}
+
+/***********   MENU  *************/
+menu {
+    padding: 0;
+    min-width: 100px;
+    max-width: 380px;
+    margin: 155px auto;
+        
+}
+menu ul {
+    display: table-row;
+}
+
+menu ul li {
+    display: table-cell;
+    width: auto;
+    vertical-align: bottom;
+    text-align: center;
+   
+}
+menu ul li a {
+    width: 330px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+    font:13px 'open_sansregular';
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+menu ul li a:hover {
+    text-shadow: 0px 0px 20px rgba(255,255,255,0.9);
+    
+}
+/***********  END MENU  *************/
+
+header h1 {
+    display:block; 
+    font: 3.313em 'ubuntubold';
+    color: #fff;
+    text-align: center;
+    margin: -100px 0px 0px 0px;
+    
+}
+blockquote {
+    position: relative;
+    font-size: 0.94em;
+    text-align: center;
+    color: #fff;
+    margin-top: 16px;
+    
+}
+blockquote:before ,blockquote:after {  
+    content: url(image/line.png); 
+    position: relative;
+    top:-5px;
+    
+}  
+blockquote:before {
+    right: 30px;
+    
+}
+blockquote:after {  
+    left:  30px;
+  
+    
+}  
+
+.css-button { 
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 47px; 
+    width: 238px; 
+    padding: 5px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    text-transform: uppercase;
+    font-size: 0.94em;
+    background: #50c3af; 
+    border-width: 0px; 
+    border-radius: 25px; 
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.css-button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 94px -7px rgba(255, 255, 255, 0.17); 
+    background-color: #00b495;
+}
+.css-button:active {
+    background-color: #037965;
+}
+/***********   END HEADER  *************/
+
+/***********   SECTION  *************/
+article {
+        margin-left: 70px;
+}
+figure {
+    margin: 0px;
+    float: left;
+    text-align: center;
+    width: 190px;
+    margin: 40px 44px 30px 0px;
+    
+}
+
+figure h2 {
+    color: #40474e;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+figcaption {
+    font-size: 0.88em;
+    color: #787b80;
+    line-height: 1.8;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #e2e3e4;
+    margin-bottom: 25px;
+    
+}
+/***********  END SECTION  *************/
+
+/***********   section_1  *************/
+.section_1 {
+    min-height: 280px;
+    background-color: #eeeeef;
+    margin: -5px 0 0 0;
+   
+    
+}
+
+.section_1 hr{
+    width: 150px;
+   border-style: inset;
+    
+}
+/***********   section_2  *************/
+.section_2 {
+    min-height: 528px;
+    background-color: #f5f5f5;
+    
+}
+.section_2 figure{
+    width: 267px;
+    margin-top: 60px;
+    margin-right: 98px;
+}
+.section_2 h2 {
+    margin: 20px 0px;
+    text-align: left;
+}
+.section_2 hr {
+    width: 267px;
+    height: 2px;
+    border: 0;
+    background-color: #e2e3e4;
+    margin-bottom: 25px;
+    
+}
+
+.section_2 figcaption {
+    text-align: left;
+        
+}
+.css-button-mini{ 
+    display: block;
+    margin-top: 30px;
+    height: 35px; 
+    width: 100px; 
+    padding: 5px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    font-size: 0.94em;
+    background: #50c3af; 
+    border-width: 0px; 
+    border-radius: 25px; 
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.css-button-mini:hover{
+    cursor: pointer;
+    background-color: #00b495;
+}
+.css-button-mini:active {
+    background-color: #037965;
+}
+
+
+/***********   section_3  *************/
+.section_3 {
+    min-height: 327px;
+    background-color: #eeeeef;
+
+}
+
+.section_3 article{
+    
+    
+}
+.section_3 figure {
+   
+    
+}
+.section_3 h2 {
+    width: 70%;
+    margin: 20px 0px;
+    text-align: left;
+}
+.section_3 hr {
+    background-color: #e2e3e4;
+    margin-bottom: 25px;
+    
+}
+
+.section_3 figcaption {
+    margin-bottom: 30px;
+      
+}
+.css-button-mini-gray{ 
+    
+    display: block;
+    margin-top: 100px;
+    height: 35px; 
+    width: 100px; 
+    padding: 5px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    font-size: 0.94em;
+    background: #d2d5da; 
+    border-width: 0px; 
+    border-radius: 25px; 
+         transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.css-button-mini-gray:hover{
+    cursor: pointer;
+    background-color: #00b495;
+}
+.css-button-mini-gray:active {
+   
+    background-color: #037965;
+}
+
+/***********   section_3  *************/
+.section_3 figure {
+   /* width: 100%; */
+      width: 78%;
+      height: 100%;
+}
+
+.section_3 figcaption {
+   /* width: 100%; */
+    display: block;
+    float: left;
+    text-align: left;
+    
+}
+.section_3 h2 {
+    
+    text-align: left;
+   
+    
+}
+.section_3 h2:before {
+    content: url(image/circl.png);
+    position: relative;
+    top: 8px;
+    right: 5px;
+    
+}
+.section_3 hr {
+    width: 100%;
+    height: 2px;
+    border: 0;
+    background-color: #e2e3e4;
+    margin-bottom: 15px;
+    
+}
+
+/***********   section_4  *************/
+.section_4 {
+    min-height: 443px;
+    background-color: #f5f5f5;
+
+}
+.section_4 figure{
+    text-align: left;
+ 
+
+}
+.section_4 h2 {
+    font-size: 16px;
+    width: 180px;
+    margin: 20px 20px 20px 0px;
+
+}
+.section_4 hr {
+    width: 100%;
+    height: 2px;
+    border: 0;
+    background-color: #e2e3e4;
+    margin-bottom: 25px;
+    
+}
+p.block_check {
+    margin-top: 20px;
+    
+}
+a.check {
+    font-size: 0.88em;
+    color: #00b495;
+     transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+a.check:hover {
+    color: #037965;
+    
+}
+
+/***********   section_5  *************/
+.section_5 {
+    min-height: 322px;
+    background-color: #eeeeef;
+
+}
+.section_5 figure {
+    margin-right: 90px;
+    text-align: left;
+    width: 270px;
+    
+}
+.section_5 h2 {
+     margin: 0px 0px 5px 0px; 
+      
+}
+ h2.plane:before ,.pancil:before {
+     padding-right: 10px;
+     position: relative;
+     top: 5px;
+    
+}
+h2.plane:before {
+     content: url(image/plane.png); 
+     
+}
+
+h2.pancil:before {
+     content: url(image/pancil.png); 
+     
+}
+.section_5 hr {
+    float: left;
+    width: 260px;
+    margin-bottom: 20px;
+      
+}
+/***********   section_6  *************/
+.section_6 {
+    min-height: 330px;
+    background-color: #f5f5f5;
+
+}
+.section_6 img {
+    float: left;
+    margin:50px 10% 0px 0px;
+
+    
+}
+.section_6 figure {
+     width: 320px;
+    margin: 50px 0px 0px 0px;
+    text-align: left;
+    
+}
+.section_6 h2 {
+    margin: 0px 0px 20px 0px; 
+}
+.section_6 hr {
+    width: 100%;
+}
+.section_6 .css-button-mini-gray{ 
+    margin-top: 30px;
+    
+}
+.section_7 {
+    min-height: 227px;
+    background-color: #50c3af;
+    
+}
+div .block_star {
+    position: relative;
+    font-size: 0.94em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+    font-weight: 800;
+    
+}
+div .block_star:before {  
+    content: url(image/star.png); 
+    position: relative;
+    top:3px;
+    
+}
+div .block_star hr{
+    width: 260px;
+    height: 1px;
+    margin-top: 10px;
+    
+}
+
+/***********   section_7  *************/
+.sect_7_logo {
+   display: block;
+      
+}
+.sect_7_logo img {
+   margin-top: 20px;
+   margin-left: 8%;
+    
+}
+
+/***********   FOOTER  *************/
+footer{
+    min-height: 50px;
+    background-color: #f5f5f5;
+    
+}
+footer p ,.socset{
+    margin-top: 18px;
+}
+footer p {
+    
+    font-size: 0.81em;
+    color: #aaacaf;
+    float: left;
+    margin-left: 8%;
+    
+}
+footer span {
+     color: #787b80;
+}
+
+.socset {
+    float: right;
+    margin-right: 10%;
+}
+.socset img {
+    margin-left: 10px;
+    
+}

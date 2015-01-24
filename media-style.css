@@ -1,0 +1,145 @@
+@media screen and (max-width: 800px) {
+ 
+    article {
+        margin-left: 0px;
+    }
+    figure {
+        width: 100%;
+    }
+   .section_2 figure{
+        width: 100%;
+    }
+    .section_2 h2 ,.section_2 figcaption {
+        text-align: center;
+    }
+    .css-button-mini { 
+         margin: 20px auto;
+        width: 180px;
+    }
+    .section_3 figure {
+        width: 96%;
+        padding: 2%;
+             
+    }
+    .section_3 figcaption {
+         text-align: center;
+      
+     }
+    .section_3 hr {
+        width: 90%;
+        
+    }
+    .section_3 h2 {
+        margin: 20px auto;
+        text-align: center;
+    }
+    .css-button-mini-gray { 
+        margin: 0 auto;
+        width: 180px;
+    }
+    .section_4 figure {
+        text-align: center;
+    }
+    .section_4 h2 {
+        margin: 20px auto;
+    }
+    .section_4 hr {
+        width: 267px;
+        
+    }
+    .section_5 figure {
+        width: 40%;
+        margin: 0;
+        padding: 5%;
+    }
+    .section_5 hr {
+        width: 100%;
+    }
+    
+    .section_6 figure {
+        width: 40%;
+        
+    }
+    .section_6 hr {
+        width: 100%;
+    }
+    .section_6 img {
+        margin-left: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .sect_7_logo img {
+    margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .section_6 img {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .sect_7_logo img {
+       margin-top: 20px;
+       margin-left: 4%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    blockquote:before ,blockquote:after  {  
+        display: none;
+    }
+    .section_2 img {
+        width: 100%;
+      
+    }
+    .section_2 figure {
+       margin-top: 0px;
+        margin-bottom: 20px;
+      
+    }
+    .section_6 img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section_6 figure {
+        width: 100%;
+        text-align: center;
+    }
+    .css-button-mini-gray {
+        margin-bottom: 20px;
+        
+    }
+    .sect_7_logo img {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    .section_5 figure {
+        width:90%;
+        text-align: center;
+    }
+    .section_5 hr {
+        width: 100%;
+    }
+     .sect_7_logo img {
+       margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .sect_7_logo img {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    
+    
+}
